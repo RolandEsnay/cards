@@ -1,4 +1,21 @@
-.class{
+
+
+
+body{
+  display: grid;
+  grid-auto-flow: dense;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  row-gap: 1em;
+  column-gap: 1em;
+}
+
+
+.card{
   width: 100%;
   min-height: 480px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 1px 1px gray ;
 }
